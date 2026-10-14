@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Geben Sie eine natürliche Zahl ein: ");
+        Console.Write("Geben Sie eine natürliche Zahl ein: "); // erfragt eine natürliche Zahl vom Benutzer
         int zahl = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Geben Sie eine Zahl zwischen 1 und 3 ein,");
